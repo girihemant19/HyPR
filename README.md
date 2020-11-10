@@ -52,9 +52,9 @@ nvcc -Xcompiler -fopenmp hyPr.cu -o hyPr -std=c++11 -ljsoncpp
 
 We need to install these libraries for proper functioning of the code
 
-1.  [NetworkX](https://networkx.github.io/) used fo storing graphs
-2.  [Numpy](http://www.numpy.org/) used for interpolation of curves
-3.  [Json Library] (https://sourceforge.net/projects/jsoncpp/) used as reader and writer in C++.
+1.  [Json Library] (https://sourceforge.net/projects/jsoncpp/) used as reader and writer in C++.
+2.  [NetworkX](https://networkx.github.io/) used fo storing graphs
+3.  [Numpy](http://www.numpy.org/) used for interpolation of curves
 
 ### Installing
 
