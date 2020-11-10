@@ -31,9 +31,9 @@ This creates z batches from the y% dataset.
 Arguments:
 
 1. **graph.py**: This is the script for creating batches.
-2. **dataset**: This is the static dataset
+2. **dataset**: This is the static dataset.
 3. **x**: The scratch dataset created to calculate PR using NvPagerank.
-4. **z**: Number of batches to be created
+4. **z**: Number of batches to be created.
 
 2)After the batches are created, run the HyPR algorith to do preprocessing
 of the incoming batches with old batch and calculate old, new and border vertex.
@@ -41,7 +41,8 @@ This is done parallely using OpenMp on the Host side. As soon as this preprocees
 gets completed, the scaling and Pagerank calculation gets started.
 
 ```
-python graph.py dataset x z
+nvcc -Xcompiler -fopenmp hyPr.cu -o hyPr -std=c++11 -ljsoncpp
+./hyPr 0 ranks_amazon.txt
 ```
 
 ## Getting Started
