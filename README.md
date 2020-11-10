@@ -21,7 +21,7 @@ in C++ and CUDA.
 
 1) Before PR calcualtion, the dataset(amazon) is divided into x% 
 & y% and the y% is divided into z batches. The evolving graph is created for y% of the data and static
-Pagerank is calculated for x% of the data using NVgraph.
+Pagerank is calculated for x% of the data using [nvGraph](https://github.com/rapidsai/nvgraph).
 
 ```
 python graph.py dataset x z
@@ -32,7 +32,7 @@ Arguments:
 
 1. **graph.py**: This is the script for creating batches.
 2. **dataset**: This is the static dataset.
-3. **x**: The scratch dataset created to calculate PR using NvPagerank.
+3. **x**: The scratch dataset created to calculate PR using nvGraph.
 4. **z**: Number of batches to be created.
 
 2)After the batches are created, run the HyPR algorith to do preprocessing
@@ -61,9 +61,9 @@ We need to install these libraries for proper functioning of the code
 All the above librarie can be easily installed using apt-get in Ubuntu
 
 ```
+http://www.numpy.org/ -->Download from here
 sudo apt-get install python-networkx
 sudo apt-get install python-numpy
-sudo apt-get install python-matplotlib
 ```
 
 
