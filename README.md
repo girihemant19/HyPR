@@ -81,9 +81,13 @@ You can obtain CUDA from [https://developer.nvidia.com/cuda-downloads](https://d
 Compiler requirements:
 
 
-## Authors
+## Cite this work as
 
-* **Hemant Kumar Giri** - [girihemant19](https://github.com/girihemant19)
-* **Mridul Haque**
-* **Dip Sankar Banerjee**
+@inproceedings{ giri2020,
+  title={ HyPR: Hybrid PageRank Algorithm on Evolving Graphs },
+  author={Giri, Hemant Kumar and Haque, Mridul and Banerjee, Dip Sankar },
+  booktitle={ IEEE 27th International Conference on High Performance Computing (HiPC)},
+  year={2020},
+  organization={IEEE}
+}
 
