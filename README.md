@@ -42,7 +42,7 @@ gets completed, the scaling and Pagerank calculation gets started using HyPr Alg
 
 ```
 nvcc -Xcompiler -fopenmp hyPr.cu -o hyPr -std=c++11 -ljsoncpp
-./hyPr 0 ranks_amazon.txt
+./hyPr 0 ranks.txt
 ```
 
 ## Getting Started
