@@ -65,6 +65,20 @@ All the above librarie can be easily installed using apt-get in Ubuntu
 sudo apt-get install python-networkx
 sudo apt-get install python-numpy
 ```
+Compiler requirement:
+
+* `gcc`     version 5.4+
+* `nvcc`    version 9.2
+
+
+CUDA requirement:
+
+* CUDA 10.2+
+* NVIDIA driver 396.44+
+* Volta architecture or better
+
+You can obtain CUDA from [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads).
+Compiler requirements:
 
 
 ## Authors
