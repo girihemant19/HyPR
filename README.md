@@ -32,13 +32,13 @@ Arguments:
 
 1. **graph.py**: This is the script for creating batches.
 2. **dataset**: This is the static dataset.
-3. **x**: The scratch dataset created to calculate PR using nvGraph.
+3. **x**: The scratch dataset created to calculate PR using [nvGraph](https://github.com/rapidsai/nvgraph).
 4. **z**: Number of batches to be created.
 
 2)After the batches are created, run the HyPR algorith to do preprocessing
-of the incoming batches with old batch and calculate old, new and border vertex.
+of the incoming batches with old batch and calculate old, new and border vertexes.
 This is done parallely using OpenMp on the Host side. As soon as this preproceesing
-gets completed, the scaling and Pagerank calculation gets started.
+gets completed, the scaling and Pagerank calculation gets started using HyPr Algorithm.
 
 ```
 nvcc -Xcompiler -fopenmp hyPr.cu -o hyPr -std=c++11 -ljsoncpp
@@ -52,7 +52,7 @@ nvcc -Xcompiler -fopenmp hyPr.cu -o hyPr -std=c++11 -ljsoncpp
 
 We need to install these libraries for proper functioning of the code
 
-1.  [Json Library] (https://sourceforge.net/projects/jsoncpp/) used as reader and writer in C++.
+1.  [Json Library](https://sourceforge.net/projects/jsoncpp/) used as reader and writer in C++.
 2.  [NetworkX](https://networkx.github.io/) used fo storing graphs
 3.  [Numpy](http://www.numpy.org/) used for interpolation of curves
 
@@ -61,7 +61,7 @@ We need to install these libraries for proper functioning of the code
 All the above librarie can be easily installed using apt-get in Ubuntu
 
 ```
-http://www.numpy.org/ -->Download from here
+[Json Library](https://sourceforge.net/projects/jsoncpp/) -->Download from here
 sudo apt-get install python-networkx
 sudo apt-get install python-numpy
 ```
