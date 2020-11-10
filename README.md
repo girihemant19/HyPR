@@ -67,14 +67,14 @@ sudo apt-get install python-numpy
 ```
 Compiler requirement:
 
-* `gcc`     version 5.4+
+* `gcc`     version 4.8+
 * `nvcc`    version 9.2
 
 
 CUDA requirement:
 
 * CUDA 10.2+
-* NVIDIA driver 396.44+
+* NVIDIA driver 410.48+
 * Volta architecture or better
 
 You can obtain CUDA from [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads).
