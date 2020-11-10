@@ -73,7 +73,3 @@ sudo apt-get install python-matplotlib
 * **Mridul Haque**
 * **Dip Sankar Banerjee**
 
-
-## Acknowledgments
-
-* Group Project Partners
