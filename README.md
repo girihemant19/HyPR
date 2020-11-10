@@ -11,7 +11,7 @@ graphs. The technique also provides high performance through
 parallel processing of every batch of updates using a parallel
 algorithm.
 
-#Building
+##Building
 The project is written in standard C++, OpenMp and CUDA and Python.
 To create an evolving graph, the codes are written in Python, and
 Pagerank calculation over this evolving graph, the codes are written
