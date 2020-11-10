@@ -85,9 +85,9 @@ Compiler requirements:
 
 ```html
 @inproceedings{ giri2020,
-  title={ HyPR: Hybrid PageRank Algorithm on Evolving Graphs },
-  author={Giri, Hemant Kumar and Haque, Mridul and Banerjee, Dip Sankar },
-  booktitle={  27th IEEE International Conference on High Performance Computing, Data, & Analytics (HiPC)   },
+  title={ HyPR: Hybrid PageRank Algorithm on Evolving Graphs},
+  author={Giri, Hemant Kumar and Haque, Mridul and Banerjee, Dip Sankar},
+  booktitle={27th IEEE International Conference on High Performance Computing, Data, & Analytics (HiPC)},
   year={2020},
   organization={IEEE}
 }
