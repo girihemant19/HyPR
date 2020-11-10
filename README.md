@@ -1,5 +1,5 @@
 # HyPR-Hybrid-Page-Ranking-on-Evolving-Graphs
-#In this work, we propose Hybrid Page Rank (HyPR),
+In this work, we propose Hybrid Page Rank (HyPR),
 which computes PR on evolving graphs using collaborative
 executions on muti-core CPUs and massively parallel GPUs. We
 exploit data parallelism via efficiently partitioning the graph
