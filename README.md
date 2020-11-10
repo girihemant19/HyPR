@@ -83,7 +83,13 @@ Compiler requirements:
 
 ## Cite this work as
 
-* **Hemant Kumar Giri** - [girihemant19](https://github.com/girihemant19)
-* **Mridul Haque**
-* **Dip Sankar Banerjee**
+```html
+@inproceedings{ giri2020,
+  title={ Cite this work as },
+  author={Giri, Hemant Kumar and Haque, Mridul and Banerjee, Dip Sankar },
+  booktitle={ IEEE 27th International Conference on High Performance Computing (HiPC)},
+  year={2020},
+  organization={IEEE}
+}
+```
 
