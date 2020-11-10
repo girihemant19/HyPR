@@ -85,7 +85,7 @@ Compiler requirements:
 
 ```html
 @inproceedings{ giri2020,
-  title={ Cite this work as },
+  title={ HyPR: Hybrid PageRank Algorithm on Evolving Graphs },
   author={Giri, Hemant Kumar and Haque, Mridul and Banerjee, Dip Sankar },
   booktitle={ IEEE 27th International Conference on High Performance Computing (HiPC)},
   year={2020},
