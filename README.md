@@ -58,7 +58,7 @@ We need to install these libraries for proper functioning of the code
 
 ### Installing
 
-All the above librarie can be easily installed using apt-get in Ubuntu
+All the above library can be easily installed using apt-get for python and for JsonLibray download directly from the link given.
 
 ```
 [Json Library](https://sourceforge.net/projects/jsoncpp/) -->Download from here
